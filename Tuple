@@ -1,0 +1,16 @@
+# elements
+list1 = ['physics', 'chemistry', 2001];
+list2 = [1, 2, 3, 4, 5];
+print "list1[0]: ", list1[0]
+print "list2[1:5]: ", list2[1:5]
+#tuple
+t1 = ('physics', 'chemistry',2001);
+t2 = (1, 2, 3, 4);
+print "t1[0]: ", t1[0];
+print "t2[1:5]: ", t2[1:5];
+#deleting
+dicts={"Anbu" : 22, "Anu" : 21, "Mani" : 23} 
+print ("The dictionary before performing remove is : " + str(dicts)) 
+print ("The dictionary after remove is : " + str(dicts)) 
+del dicts['Mani'] 
+
